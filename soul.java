@@ -1,11 +1,12 @@
-import java.util.Scanner;
 class soul{
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        String name=sc.nextLine();
-        String adress=sc.nextLine();
-        int age=sc.nextInt();
-        sc.nextLine();
-        System.out.println(name + " "+ adress + " "+ age);
+        int num1=2;
+        int num2=2;
+        if(num1==num2){
+            System.out.print("it is equal");
+        }
+        else{
+            System.out.println("it is not equal");
+        }
     }
 }
