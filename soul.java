@@ -1,18 +1,14 @@
-import java.util.Scanner;
 class soul{
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        int m1=sc.nextInt();
-        int m2=sc.nextInt();
-        int m3=sc.nextInt();
-        int m4=sc.nextInt();
-        int m5=sc.nextInt();
-        int m6=m1+m2+m3+m4+m5;
-        if(m6/5>=35){
-            System.out.println("need an extra class");
+        for(int i=1;i<=10;i=i+1){
+            //System.out.println(i);
+        
+        if(i%2==0){
+            System.out.println("the even numbers are"+i);
         }
         else{
-            System.out.println("you are good to go");
+            System.out.println("the odd numbers are"+i);
+        }
         }
     }
 }
